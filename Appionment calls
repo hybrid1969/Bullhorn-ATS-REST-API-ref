@@ -1,0 +1,51 @@
+Create Appointment
+PUT: rest22.bullhornstaffing.com/rest-services/xxxx/entity/Appointment?BhRestToken=
+{
+    "candidateReference":{
+		"id":"xxxx"
+	},
+    "clientContactReference":{
+		"id":"xxxx"
+	},
+    "jobOrder":{
+		"id":"xxxx"
+	},
+    "appointmentUUID":"xxxxx",
+    "communicationMethod":"phone",
+    "dateBegin":"01/03/2025 12:00",
+    "dateEnd":"01/03/2025 12:00",
+    "subject":"Job Interview",
+    "description":"Interview for the position of Software Engineer",
+    "location":"Conference Room 1",
+    "notificationMinutes":15,
+    "type":"Interview",
+	"owner":{
+        "id": "xxx"
+    }
+}
+and the expected JSON response
+{
+    "changedEntityType": "Appointment",
+    "changedEntityId": xxx,
+    "changeType": "INSERT",
+    "data": {
+        "candidateReference": {
+            "id": "xxx"
+        },
+        "clientContactReference": {
+            "id": "xxx"
+        },
+        "jobOrder": {
+            "id": "xxx"
+        },
+        "appointmentUUID": "xxxxx",
+        "communicationMethod": "phone",
+        "dateBegin":"01/03/2025 12:00",
+		    "dateEnd":"01/03/2025 12:00",
+        "subject": "Job Interview",
+        "description": "Interview for the position of Software Engineer",
+        "location": "Conference Room 1",
+        "notificationMinutes": 15,
+        "type": "Interview"
+    }
+}

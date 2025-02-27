@@ -1,2 +1,2 @@
 # bullhorn-api-ref
-Examples of bullhorn calls
+Various examples of Bullhorn ATS REST API calls

@@ -1,0 +1,14 @@
+Add New Note
+PUT: https://rest21.bullhornstaffing.com/rest-services/{Corp Token}/entity/Note?BhRestToken={BhRestToken}
+{
+  "comments": "Testing note", 
+  "action": "Other", 
+  "jobOrders": [
+      {
+        "id": xxx
+      }
+    ], 
+  "personReference": {
+    "id": xxx
+    } 
+}

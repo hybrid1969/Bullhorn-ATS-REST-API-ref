@@ -3,7 +3,7 @@ PUT: https://rest{swimlane}.bullhornstaffing.com/rest-services/{Corp Token}/enti
 {
   "comments": "Testing note", 
   "action": "Other", 
-  "jobOrders": [
+  "jobOrder": [
       {
         "id": xxx
       }

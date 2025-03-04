@@ -1,0 +1,13 @@
+POST: https://rest{swimlane}.bullhornstaffing.com/rest-services/{Corp Token}/services/preferences/Canvas?BhRestToken={BhRestToken}
+{
+    "canvasOnboarded": {
+        "sampleReportId": 11239,
+        "howToUseCanvas": true,
+        "quickGuide": true
+    }
+}
+
+and the expected JSON response
+{
+
+}

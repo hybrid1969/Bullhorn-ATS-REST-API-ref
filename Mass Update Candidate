@@ -1,0 +1,12 @@
+POST: https://rest22.bullhornstaffing.com/rest-services/{Corp Token}/massUpdate/Candidate?BhRestToken={BhRestToken}
+{
+  "ids": [
+      xxx,
+    ], 
+  "isDeleted": false
+}
+
+and the expected JSON response
+{
+  {count of affected records}
+}

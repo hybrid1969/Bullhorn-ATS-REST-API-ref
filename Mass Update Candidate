@@ -1,4 +1,4 @@
-POST: https://rest22.bullhornstaffing.com/rest-services/{Corp Token}/massUpdate/Candidate?BhRestToken={BhRestToken}
+POST: https://rest{swimlane}.bullhornstaffing.com/rest-services/{Corp Token}/massUpdate/Candidate?BhRestToken={BhRestToken}
 {
   "ids": [
       xxx,

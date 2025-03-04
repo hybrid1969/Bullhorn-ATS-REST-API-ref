@@ -12,3 +12,20 @@ PUT: https://rest21.bullhornstaffing.com/rest-services/{Corp Token}/entity/Note?
     "id": xxx
     } 
 }
+
+and the expected JSON response
+{
+    "changedEntityType": "Note",
+    "changedEntityId": xxxx,
+    "changeType": "INSERT",
+    "data": {
+        "comments": "Testing note",
+        "action": "Other",
+        "jobOrder": {
+            "id": xxx
+        },
+        "personReference": {
+            "id": xxx
+        }
+    }
+}

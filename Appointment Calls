@@ -1,5 +1,5 @@
 Create Appointment
-PUT: rest22.bullhornstaffing.com/rest-services/{Corp Token}/entity/Appointment?BhRestToken={BhRestToken}
+PUT: rest{swimlane}.bullhornstaffing.com/rest-services/{Corp Token}/entity/Appointment?BhRestToken={BhRestToken}
 {
     "candidateReference":{
 		"id":"xxxx"

@@ -1,5 +1,5 @@
 Add New Note
-PUT: https://rest21.bullhornstaffing.com/rest-services/{Corp Token}/entity/Note?BhRestToken={BhRestToken}
+PUT: https://rest{swimlane}.bullhornstaffing.com/rest-services/{Corp Token}/entity/Note?BhRestToken={BhRestToken}
 {
   "comments": "Testing note", 
   "action": "Other", 

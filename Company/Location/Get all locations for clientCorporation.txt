@@ -1,0 +1,95 @@
+Get all Locations for a clientCorporation
+GET: https://rest{swimlane}.bullhornstaffing.com/rest-services/{Corp Token}/query/Location?BhRestToken={BhRestToken}&fields=*&where=clientCorporation={clientCorporationId}
+{}
+
+and the expected JSON response
+{
+    "start": 0,
+    "count": 15,
+    "data": [
+        {
+            "id": xxxx,
+            "address": {
+                "address1": "",
+                "address2": "",
+                "city": "",
+                "state": "",
+                "stateID": xx,
+                "stateName": "",
+                "zip": "",
+                "countryID": 1,
+                "countryName": "",
+                "countryCode": ""
+            },
+            "candidate": null,
+            "clientContacts": {
+                "total": 0,
+                "data": []
+            },
+            "clientCorporation": {
+                "id": xxxx,
+                "name": ""
+            },
+            "customDate1": null,
+            "customDate2": null,
+            "customDate3": null,
+            "customFloat1": null,
+            "customFloat2": null,
+            "customFloat3": null,
+            "customInt1": null,
+            "customInt2": null,
+            "customInt3": null,
+            "customText1": null,
+            "customText10": null,
+            "customText11": null,
+            "customText12": null,
+            "customText13": null,
+            "customText14": null,
+            "customText15": null,
+            "customText16": null,
+            "customText17": null,
+            "customText18": null,
+            "customText19": null,
+            "customText2": null,
+            "customText20": null,
+            "customText3": null,
+            "customText4": null,
+            "customText5": null,
+            "customText6": null,
+            "customText7": null,
+            "customText8": null,
+            "customText9": null,
+            "customTextBlock1": null,
+            "customTextBlock2": null,
+            "customTextBlock3": null,
+            "dateAdded": 1726651598660,
+            "dateLastModified": 1726674178297,
+            "declineToApplyTaxes": true,
+            "description": null,
+            "effectiveDate": "2022-06-06",
+            "effectiveEndDate": "2999-12-31",
+            "externalID": "",
+            "isBillTo": false,
+            "isDeleted": false,
+            "isSoldTo": false,
+            "isWorkSite": true,
+            "owner": {
+                "id": xx,
+                "firstName": "",
+                "lastName": ""
+            },
+            "salesTaxGroups": {
+                "total": 0,
+                "data": []
+            },
+            "status": "Active",
+            "title": "",
+            "versionID": xxx,
+            "versions": {
+                "total": 1,
+                "data": []
+            }
+        },
+        ... (the next 14 locations)    
+    ]
+}

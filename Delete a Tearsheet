@@ -1,0 +1,15 @@
+POST: https://rest{swimlane}.bullhornstaffing.com/rest-services/{Corp Token}/entity/Tearsheet/ID?BhRestToken={BhRestToken}
+{
+  isDeleted: true
+}
+
+and the expected JSON response
+{}
+
+-----
+
+DELETE: https://rest{swimlane}.bullhornstaffing.com/rest-services/{Corp Token}/entity/Tearsheet/ID?BhRestToken={BhRestToken}
+{}
+
+and the expected JSON response
+{}

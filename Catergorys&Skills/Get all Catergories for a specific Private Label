@@ -1,0 +1,34 @@
+Get all Catergories for a specific Private Label
+GET: https://rest{swimlane}.bullhornstaffing.com/rest-services/{Corp Token}/query/Category?fields=*&where=enabled = true AND privateLabels.id = xxx &BhRestToken={BhRestToken}
+{}
+
+and the expected JSON response
+{
+    "start": 0,
+    "count": 10,
+    "data": [
+        {
+            "id": xxxx,
+            "dateAdded": 1661181230000,
+            "description": null,
+            "enabled": true,
+            "externalID": 0,
+            "name": "",
+            "occupation": "",
+            "privateLabels": {
+                "total": 1,
+                "data": []
+            },
+            "skills": {
+                "total": 0,
+                "data": []
+            },
+            "specialties": {
+                "total": 0,
+                "data": []
+            },
+            "type": "Normal"
+        },
+        ...
+    ]
+}

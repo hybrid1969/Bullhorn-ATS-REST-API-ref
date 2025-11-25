@@ -1,0 +1,9 @@
+POST https://rest{CLS}.bullhornstaffing.com/rest-services/{CorpToken}/entity/CanvasReport/{ReportID}?BhRestToken={BhRestToken}
+{
+  "isDeleted": false
+}
+
+and the expected JSON response
+{
+
+}
